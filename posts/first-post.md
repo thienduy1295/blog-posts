@@ -1,6 +1,6 @@
 ---
 title: 'Multiple SSH keys for different accounts on Github or Gitlab'
-date: '2025-03-14'
+date: 2025-03-14
 description: 'Step by step to config multiple SSH keys'
 ---
 
