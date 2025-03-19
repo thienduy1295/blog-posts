@@ -1,9 +1,9 @@
 ---
-title: 'Modularize gitlab CI pipeline'
+title: Modularize gitlab CI pipeline
 date: 2025-03-19
 ---
 
-# Modularize GitLab CI Pipeline
+# Modularize GitLab CI Pipeline
 
 This MR implements a modular structure for our GitLab CI/CD pipeline to improve maintainability and scalability, while preserving all existing functionality.
 
@@ -21,7 +21,7 @@ This MR implements a modular structure for our GitLab CI/CD pipeline to impro
 - Enhanced Readability: The main `.gitlab-ci.yml` file is now much shorter and easier to understand
 - Increased Scalability: New stages or jobs can be added without cluttering the main file
 
-# Implementation Details:
+# Implementation Details:
 
 - Created `.gitlab/ci/default.yml` for common settings, variables, and stage definitions
 - Separated each stage into its own file (install.yml, bot-review.yml, etc.)
