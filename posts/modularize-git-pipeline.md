@@ -3,10 +3,6 @@ title: Modularize gitlab CI pipeline
 date: 2025-03-19
 ---
 
-# Modularize GitLab CI Pipeline
-
-This MR implements a modular structure for our GitLab CI/CD pipeline to improve maintainability and scalability, while preserving all existing functionality.
-
 # Changes:
 
 - Restructured the monolithic `.gitlab-ci.yml` into modular components
